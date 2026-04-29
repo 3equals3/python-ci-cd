@@ -4,7 +4,7 @@ from datetime import datetime
 app = Flask(__name__)
 now = datetime.now().strftime("%H:%M:%S")
 
-# Комментарий был изменен! x3
+# Комментарий был изменен! x4
 @app.route("/")
 def home():
     # Используем f-строку для вставки HTML/CSS
